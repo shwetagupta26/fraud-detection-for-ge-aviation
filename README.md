@@ -11,7 +11,7 @@ In the analysis, I have focused on three types of alerts: Atomic alerts TP high,
 
 **Approach**
 
-1. To get an overview, first I separate the data in 4 sets (atomic, heat daily, heat monthly, heat weekly) and conduct the Exploratory Data Analysis and Unsupervised Learning using k means to find out the significant factors that would impact the accuracy of current system; 
+1. To get an overview, first I separated the data in 4 sets (atomic, heat daily, heat monthly, heat weekly) and then performed the Exploratory Data Analysis and Unsupervised Learning using k means to find out the significant factors that would impact the accuracy of current system.
 2. Based on my findings I then chose Logistic regression, Naïve Bayes,Random Forest and XGBoost to perform the predictive analysis. 
 3. Improved the recall and reduced the number of False Positives by varying the model probability threshold.
 4. Finally, constructed a budget constrain analysis to find the best threshold value to minimize the cost of missing risky alerts(FN) and the labor cost of analysts(FP).
