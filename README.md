@@ -5,18 +5,18 @@ Founded by Thomas Edison, GE has a long history of involving in patent conflicts
 
 The rules are activated dependent on the activities and threshold of the cumulative heat score for an employee which fires an alert( atomic and heat).These are afterwards analyzed by the team of analyst and classified as TP/DE, TP/HIGH, TP/LOW or FP. 
 
-**Goals**
+## Goals
 
 In the analysis, I have focused on three types of alerts: Atomic alerts TP high, TP notable(high and low risk alerts) and Heat Alerts(high and low); I would design the models for predicting each of these types that reduce the analysts manual work as much as possible whilst minimize the chance of missing any high risky alerts. 
 
-**Approach**
+## Approach
 
 1. To get an overview, first I separated the data in 4 sets (atomic, heat daily, heat monthly, heat weekly) and then performed the Exploratory Data Analysis and Unsupervised Learning using k means to find out the significant factors that would impact the accuracy of current system.
 2. Based on my findings I then chose Logistic regression, Naïve Bayes,Random Forest and XGBoost to perform the predictive analysis. 
 3. Improved the recall and reduced the number of False Positives by varying the model probability threshold.
 4. Finally, constructed a budget constrain analysis to find the best threshold value to minimize the cost of missing risky alerts(FN) and the labor cost of analysts(FP).
 
-**Insights**
+## Insights
 1. Ensemble methods with probability threshold at .01 were able to detect 99% of the risky alerts correctly while reducing the Analyst efforts (False Positive count) by 53% and is cost-effective.
 
 2. From the model Feature importance and tenure bar chart we can state that tenure is an important feature and employees with tenure greater than 40 years (near retirement) are susceptible to suspicious activities.
