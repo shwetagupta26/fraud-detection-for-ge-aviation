@@ -1,7 +1,7 @@
 # Fraud detection for GE Aviation
 
 ## Project Overview 
-Founded by Thomas Edison, GE has a long history of involving in patent conflicts since the famous “Current war” with Westinghouse, thus it has been GE’s tradition to protect the Intellectual Property. The cost of a single IP leakage can be as high as $10million. Currently the company has rule based system with a special team of 10 analysts to monitor the IP leakage risks manually and classify the alerts as high or low risk. It has been very heavy work since they have to check nearly 100,000 incidents per year, thus the aim of our project is to build a more robust ML models for protection of IP and Fraud Detection that can save the analyst from heavy work while not miss any high risk incidents.
+Founded by Thomas Edison, GE has a long history of involving in patent conflicts since the famous “Current war” with Westinghouse, thus it has been GE’s tradition to protect the Intellectual Property. The cost of a single IP leakage can be as high as $10million. Currently the company has rule based system with a special team of 10 analysts to monitor the IP leakage risks manually and classify the alerts as high or low risk. It has been very heavy work since they have to check nearly 100,000 incidents per year, thus the aim of the project is to build a more robust ML models for protection of IP and Fraud Detection that can save the analyst from heavy work while not miss any high risk incidents.
 
 The rules are activated dependent on the activities and threshold of the cumulative heat score for an employee which fires an alert( atomic and heat).These are afterwards analyzed by the team of analyst and classified as TP/DE, TP/HIGH, TP/LOW or FP. 
 
