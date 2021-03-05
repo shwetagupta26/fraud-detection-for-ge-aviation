@@ -17,7 +17,7 @@ In the analysis, I have focused on three types of alerts: Atomic alerts TP high,
 4. Finally, constructed a budget constrain analysis to find the best threshold value to minimize the cost of missing risky alerts(FN) and the labor cost of analysts(FP).
 
 ## Insights
-1. Ensemble methods with probability threshold at .01 were able to detect 99% of the risky alerts correctly while reducing the Analyst efforts (False Positive count) by 53% and is cost-effective.
+1. Ensemble methods with probability threshold at .01 were able to detect **99%** of the risky alerts correctly while reducing the Analyst efforts (False Positive count) by 53% and is cost-effective.
 
 2. From the model Feature importance and tenure bar chart we can state that tenure is an important feature and employees with tenure greater than 40 years (near retirement) are susceptible to suspicious activities.
 
